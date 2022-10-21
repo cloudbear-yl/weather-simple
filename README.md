@@ -1,4 +1,4 @@
-# weather-simple
+# Weather-Rainfall-App
 
 Goal:
 Create a simple rainfall app that generates real-time data rainfall data when user inputs area name.
