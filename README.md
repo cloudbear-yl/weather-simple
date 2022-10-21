@@ -12,11 +12,11 @@ To run the appplication on Docker:
 - Pre-requistes: a copy of this repo, Dockerfile
 
     1. Building the image
-       > Command : docker build -t <name>
+       > Command : docker build -t "name"
     2. Verify if the application runs properly as an Docker Image
-       > Command : docker run -p <port number> <name>
+       > Command : docker run -p <port number> "name"
     3. If Step 2, cancel the previous command. Run the application indefinitely (as detached, in the background)
-       > Command : docker run -d -p <port number> <name>
+       > Command : docker run -d -p "port number" "name"
 
 ---
 
@@ -30,10 +30,10 @@ To run Docker Container in Kubernetes:
     
 - Kubernetes 
     1. Create pods 
-       > Command : kubectl create -f <filename> 
+       > Command : kubectl create -f "name"
     2. Check if pod is successfully running 
-       > Command : kubectl describe pods/<filename> 
+       > Command : kubectl describe pods/"name"
     3. Create configmap 
-       > Command : kubectl create configmap weather-config --from-file=./<filename> 
+       > Command : kubectl create configmap "name" --from-file=./"filename"
     4. Check configmap, it will show a log file
-       > kubectl describe configmaps weather-config
+       > kubectl describe configmaps "name"
