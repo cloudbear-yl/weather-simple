@@ -1,0 +1,11 @@
+apiVersion: v1
+kind: Pod
+metadata:
+  name: weatherapp
+spec:
+  containers:
+    - name: weather-container
+      image: finalapp_docker03:latest
+      imagePullPolicy: IfNotPresent
+      ports:
+        - containerPort: 8080
