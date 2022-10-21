@@ -2,7 +2,7 @@
 
 Goal:
 Create a simple rainfall app that generates real-time data rainfall data when user inputs area name.
-Data is extracted from data.gov.sg
+Data is extracted from https://api.data.gov.sg/v1/environment/rainfall
 
 This project is a technical assessment.
 
