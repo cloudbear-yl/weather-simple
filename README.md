@@ -9,7 +9,7 @@ This project is a technical assessment.
 ---
 
 To run the appplication on Docker:
-- Pre-requistes: Dockerfile
+- Pre-requistes: a copy of this repo, Dockerfile
 
     1. Building the image
        > Command : docker build -t <name>
